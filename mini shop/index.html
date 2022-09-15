@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ONLINE COMPUTER SHOP</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<h1>COMPUTER SHOP</h1>
+
+	<div class="container">
+		<div class="items">
+			<h2>Komponente</h2>
+
+			<div class="single-item">
+				<img src="img/graficka-kartica-gigabyte-geforce-rtx-3070-ti-vision-oc-8g-gv_3234.jpg">
+				<div class="si-content">
+					<h3>GIGABYTE RTX3070TI 8GB </h3>
+					<p class="price">$250</p>
+				</div>
+				<div class="actions">
+					<input type="number" name="quantity" value="0" min="0">
+					<button onclick="addToCart(this)">Dodaj</button>
+				</div>
+			</div>
+
+			<div class="single-item">
+				<img src="img/ssd-1tb-intel®-670p-series-ssdpeknu010tzx1-m-2-pcie-3-0-x4-3500-2500_3416.jpg">
+				<div class="si-content">
+					<h3>SSD INTEL 670P NVME</h3>
+					<p class="price">$190</p>
+				</div>
+				<div class="actions">
+					<input type="number" name="quantity" value="0" min="0">
+					<button onclick="addToCart(this)">Dodaj</button>
+				</div>
+			</div>
+			<div class="single-item">
+				<img src="img/napajanje-600w-chieftec-elp-600s-element-series-12cm-fan-85-bronze_3251.jpg">
+				<div class="si-content">
+					<h3>CHIEFTEC 600S 80+</h3>
+					<p class="price">$50</p>
+				</div>
+				<div class="actions">
+					<input type="number" name="quantity" value="0" min="0">
+					<button onclick="addToCart(this)">Dodaj</button>
+				</div>
+			</div>>
+			<div class="single-item">
+				<img src="img/kuciste-zalman-z3-neo-rgb-fan-120mm-glass-bez-napajanja_2553.jpg">
+				<div class="si-content">
+					<h3>Zalman Z3 NEO</h3>
+					<p class="price">$60</p>
+				</div>
+				<div class="actions">
+					<input type="number" name="quantity" value="0" min="0">
+					<button onclick="addToCart(this)">Dodaj</button>
+				</div>
+			</div>
+			<div class="single-item">
+				<img src="img/NEW-Socket-AM4-MSI-MAG-B550M-MORTAR-MAX-WIFI-Motherboard-AM4-DDR4-M-2-Wi-Fi_.jpg">
+				<div class="si-content">
+					<h3>MSI B550M-MORTAR</h3>
+					<p class="price">$110</p>
+				</div>
+				<div class="actions">
+					<input type="number" name="quantity" value="0" min="0">
+					<button onclick="addToCart(this)">Dodaj</button>
+				</div>
+			</div>
+			<div class="single-item">
+				<img src="img/ryzen.jpg">
+				<div class="si-content">
+					<h3>RYZEN R7 5700</h3>
+					<p class="price">$180</p>
+				</div>
+				<div class="actions">
+					<input type="number" name="quantity" value="0" min="0">
+					<button onclick="addToCart(this)">Dodaj</button>
+				</div>
+			</div>
+			<div class="single-item">
+				<img src="img/memory.jpg">
+				<div class="si-content">
+					<h3>KINGSTON HyperX Fury 16GB</h3>
+					<p class="price">$70</p>
+				</div>
+				<div class="actions">
+					<input type="number" name="quantity" value="0" min="0">
+					<button onclick="addToCart(this)">Dodaj</button>
+				</div>
+			</div>
+		</div>
+		<div class="cart">
+			<h2>Korpa</h2>
+			
+			<div class="cart-items"></div>
+
+			<div class="total"></div>
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
